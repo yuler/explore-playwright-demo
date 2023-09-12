@@ -1,0 +1,11 @@
+{
+  "packageManager": "pnpm@8.7.5",
+  "scripts": {
+    "clean": "rm -rf screenshots",
+    "test": "tsx src/main.ts"
+  },
+  "dependencies": {
+    "playwright-chromium": "^1.37.1",
+    "tsx": "^3.12.8"
+  }
+}
